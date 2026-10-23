@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
 <title id="title">Talisson Souza — Software Engineer</title>
 <desc id="desc">Engineering, architecture and product. Design, build, operate.</desc>
-<rect width="1200" height="360" rx="12" fill="#101316"/>
+<rect width="1200" height="360" rx="12" fill="#0D1117"/>
 <rect x="1" y="1" width="1198" height="358" rx="11" fill="none" stroke="#30363d"/>
 <path d="M870 0v360M0 290h1200" stroke="#30363d"/>
 <g font-family="Arial,Helvetica,sans-serif">
@@ -15,9 +15,9 @@
 <text x="915" y="59" font-size="12" letter-spacing="2" fill="#a3adb8">PRODUCT LIFECYCLE</text>
 <g fill="none" stroke="#56616d" stroke-width="1.5">
 <path d="M946 98v145m0-121h25m-25 55h25m-25 55h25"/>
-<circle cx="946" cy="122" r="5" fill="#101316" stroke="#b8c2cc"/>
-<circle cx="946" cy="177" r="5" fill="#101316" stroke="#b8c2cc"/>
-<circle cx="946" cy="232" r="5" fill="#101316" stroke="#b8c2cc"/>
+<circle cx="946" cy="122" r="5" fill="#0D1117" stroke="#b8c2cc"/>
+<circle cx="946" cy="177" r="5" fill="#0D1117" stroke="#b8c2cc"/>
+<circle cx="946" cy="232" r="5" fill="#0D1117" stroke="#b8c2cc"/>
 </g>
 <text x="987" y="128" font-size="18" fill="#f0f3f6">Design</text>
 <text x="987" y="183" font-size="18" fill="#f0f3f6">Build</text>
