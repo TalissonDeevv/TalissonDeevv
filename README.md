@@ -31,16 +31,7 @@ Java · Python · JavaScript · TypeScript
 An engineering approach guided by product context, clear boundaries, and maintainability.
 
 
-```mermaid
-flowchart LR
-    P["Problem & context"] --> A["Architecture"]
-    A --> B["Build & integrate"]
-    B --> O["Operate & observe"]
-    O --> E["Evaluate & evolve"]
-    E -. Feedback .-> P
-    classDef stage fill:#161b22,stroke:#6e7681,color:#f0f3f6,stroke-width:1px
-    class P,A,B,O,E stage
-```
+![Engineering workflow: context, architecture, build, operate, and evolve with continuous feedback.](assets/engineering-flow.svg)
 
 | Design with context | Build with clarity | Operate with responsibility |
 | :--- | :--- | :--- |
