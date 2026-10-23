@@ -1,136 +1,63 @@
-![Talisson Souza — Software Engineer. I design, build, and operate digital products.](assets/header-signed.svg)
+![Talisson Souza signature — I design, build, and operate digital products.](assets/header-v4.svg)
 
 <p align="center"><strong>Software Engineer · Full Stack Developer · Entrepreneur</strong><br><sub>Brazil · Engineering with product intent</sub></p>
 
 <p align="center"><a href="https://www.talissonsouza.com.br">Website</a> &nbsp; / &nbsp; <a href="https://www.linkedin.com/in/talinho">LinkedIn</a> &nbsp; / &nbsp; <a href="mailto:contato@talissonsouza.com.br">Email</a></p>
 
-<br>
+Full-stack software, backend services, integrations, and automation. I connect engineering decisions to product needs, operating costs, and long-term maintainability.
 
-I build software around real problems: full-stack applications, backend services, integrations, and automation. Architecture, product decisions, and the realities of operating a system belong in the same conversation.
+## 01 / Public GitHub snapshot
 
-## 01 / Languages & tools
+![16 public repositories, 11 stars, 1 fork and 13 followers.](assets/github-stats-v4.svg)
 
-**Languages**
+![Public source language distribution: TypeScript 99.26%, CSS 0.28%, HTML 0.24%, PLpgSQL 0.16%, JavaScript 0.06%.](assets/public-languages-v4.svg)
 
-<img src="https://skillicons.dev/icons?i=java,python,js,ts&theme=dark" alt="Java, Python, JavaScript and TypeScript" height="44">
+<sub>October 23, 2026 · [Public API data](assets/public-stats.json). Source-byte percentages describe public code, not proficiency. Private repositories are excluded; this is a dated snapshot.</sub>
+
+## 02 / Languages & tools
+
+<img src="assets/languages-v4.svg" alt="Java, Python, JavaScript and TypeScript" height="48">
 
 Java · Python · JavaScript · TypeScript
 
-| Backend & integration | Interfaces & product | Data & delivery |
+<img src="assets/tools-v4.svg" alt="Spring, React, Vite, PostgreSQL, Supabase, Docker, Git and GitHub" height="44">
+
+| Backend & integration | Interfaces | Data & delivery |
 | :--- | :--- | :--- |
-| <img src="https://skillicons.dev/icons?i=spring,python&theme=dark" alt="Spring and Python" height="38"> | <img src="https://skillicons.dev/icons?i=react,vite&theme=dark" alt="React and Vite" height="38"> | <img src="https://skillicons.dev/icons?i=postgres,supabase,docker&theme=dark" alt="PostgreSQL, Supabase and Docker" height="38"> |
-| Spring Boot · Python | React · Vite | PostgreSQL · SQL Server · Supabase |
-| REST APIs · integrations | JavaScript · TypeScript | Docker · Git · GitHub · cloud infrastructure |
+| Spring Boot · Python · REST APIs | React · Vite · TypeScript | PostgreSQL · SQL Server · Supabase |
+| Services · integrations · automation | Product interfaces | Docker · Git · cloud infrastructure |
 
-<sub>Tools I work with, organized by responsibility. Architecture follows the problem.</sub>
+## 03 / How I build
 
-<br>
+![Context, architecture, build, operate and evolve, connected by continuous feedback.](assets/engineering-flow-v4.svg)
 
-## 02 / From problem to operation
-
-An engineering approach guided by product context, clear boundaries, and maintainability.
-
-
-![Engineering workflow: context, architecture, build, operate, and evolve with continuous feedback.](assets/engineering-flow.svg)
-
-| Design with context | Build with clarity | Operate with responsibility |
+| Context | Clarity | Operation |
 | :--- | :--- | :--- |
-| Understand constraints, cost, and expected impact. Choose architecture for the actual problem. | Keep responsibilities explicit, interfaces readable, and delivery scope focused. | Treat security, performance, and observability as design requirements. |
+| Architecture follows the problem, constraints, and cost of ownership. | Explicit contracts, modular responsibilities, and readable code. | Security, performance, and observability from the design stage. |
 
-<br>
+**Automation & applied AI:** repeatable workflows, explicit failure handling, evidence-based analysis, and human review where judgment matters.
 
-## 03 / Architecture in practice
-
-I choose architecture by looking at the problem, the people who will maintain the system, and the cost of operating it. A modular application, a set of services, or an event-driven flow should earn its complexity through a concrete requirement.
-
-| Layer | Questions that guide the design |
-| :--- | :--- |
-| **Experience & interfaces** | What does the user need to accomplish? Are states, errors, and boundaries clear? |
-| **Services & APIs** | Where do business rules belong? Are contracts explicit and failures predictable? |
-| **Data & access** | Who owns the data? What must stay consistent? How is access authorized? |
-| **Infrastructure & operation** | How is the system deployed, observed, recovered, and maintained? |
-
-**Boundaries before distribution.** Separate responsibilities where they improve clarity. Introduce additional services when the product and operational context justify them.
-
-**Contracts before assumptions.** Make inputs, outputs, validation, and error behavior explicit. Integrations need to account for timeouts, retries, and duplicate work where those conditions apply.
-
-**Evolution without guesswork.** Keep important decisions understandable through focused documentation, migration discipline, and changes that can be reviewed and recovered.
-
-<br>
-
-## 04 / Engineering standards
-
-### Security by design
-
-Authentication and authorization are separate responsibilities. Access checks should follow the resource and action involved, while sensitive configuration stays outside source code. Data exposure, dependency risk, and infrastructure permissions belong in the design discussion.
-
-### Performance as a requirement
-
-Start with the workload and the user experience. Query behavior, network boundaries, payload size, and expensive operations can shape architecture early. Measure bottlenecks before adding caches, concurrency, or operational complexity.
-
-### Observability with a purpose
-
-A system should help explain its own behavior. Useful logs, meaningful metrics, and actionable failure signals should answer practical questions: what failed, where it failed, who was affected, and what needs attention.
-
-### Maintainability as a delivery constraint
-
-Readable code, clear ownership, and focused tests make future changes safer. I value verification around business behavior, access boundaries, data changes, and failure paths. Delivery speed should include the cost of understanding and maintaining what was shipped.
-
-<br>
-
-## 05 / Automation & applied AI
-
-Automation is most useful when it removes a repeated operational burden and leaves a workflow that can still be understood and controlled.
-
-- **Workflows & integrations:** connect systems through explicit contracts, with clear failure handling and recovery paths.
-- **Bots & internal tools:** give repetitive processes a usable interface and a consistent execution model.
-- **Applied AI:** use models where they help with analysis or execution, while keeping evidence, validation, and human responsibility visible.
-
-For AI-assisted engineering, generated output is a starting point for review. Claims need evidence, changes need context, and the final result must remain understandable to the people responsible for the system.
-
-<br>
-
-## 06 / GitHub in numbers
-
-![Public GitHub statistics: repositories, stars, forks and followers. Snapshot collected on October 23, 2026.](assets/github-stats.svg)
-
-![Language distribution by classified bytes across public, non-fork repositories.](assets/public-languages.svg)
-
-<sub>Snapshot: October 23, 2026 · GitHub public API · [Source data](assets/public-stats.json). Language percentages describe published source composition, not proficiency or the full range of tools I use. Private repositories are excluded. These are dated statistics, not live counters.</sub>
-
-<br>
-
-## 07 / Selected open source
+## 04 / Selected open source
 
 ### [AI Audit Framework](https://github.com/TalissonDeevv/application-audit-framework)
 
-**Structured methodology for AI-assisted software audits.**
+A structured methodology for AI-assisted software audits, with domain-specific prompts, evidence rules, and shared finding formats.
 
-Specialized audit domains cover architecture, security, code quality, performance, and infrastructure. Shared evidence requirements, severity and confidence models, and finding formats give the analysis a consistent structure.
+![AAF: 7 audit domains, 226 repository commits, 8 stars and MIT license.](assets/aaf-overview-v4.svg)
 
-| Foundation | Current scope |
-| :--- | :--- |
-| Evidence requirements · domain separation · structured reporting | Documentation · prompts · schemas · specifications |
+![Documentation file counts across the seven auditor directories.](assets/aaf-domains-v4.svg)
 
-[Explore repository](https://github.com/TalissonDeevv/application-audit-framework) &nbsp; / &nbsp; [Evidence rules](https://github.com/TalissonDeevv/application-audit-framework/blob/main/core/evidence.md) &nbsp; / &nbsp; [Finding schema](https://github.com/TalissonDeevv/application-audit-framework/blob/main/schemas/finding-schema.md)
+[Repository](https://github.com/TalissonDeevv/application-audit-framework) · [Evidence rules](https://github.com/TalissonDeevv/application-audit-framework/blob/main/core/evidence.md) · [Finding schema](https://github.com/TalissonDeevv/application-audit-framework/blob/main/schemas/finding-schema.md) · [Chart data](assets/aaf-public-data.json)
 
-<sub>The current repository provides the methodology and reference materials; an executable audit engine is outside its implemented scope.</sub>
+<sub>Current scope: documentation, prompts, schemas, and specifications. File and commit counts describe the repository; they do not imply an executable audit engine or completed automated tests.</sub>
 
-<br>
+## 05 / Product & collaboration
 
-## 08 / Product & collaboration
+Engineering decisions should account for the problem, user experience, security, maintenance, and business impact. My public professional context includes [Cheetah Solutions Network](https://github.com/CheetahSolutions).
 
-A useful solution starts with a real problem and continues through architecture, user experience, delivery, and operation. I bring engineering and entrepreneurial judgment to those decisions, with attention to cost, security, and long-term usefulness.
+**Product development · Technical architecture · Automation · Open source**
 
-My public professional context includes [Cheetah Solutions Network](https://github.com/CheetahSolutions), focused on software engineering and operational automation.
-
-I am interested in conversations where engineering can change how a product or an operation works: a clearer system boundary, a useful integration, a more reliable workflow, or a digital product with a well-defined purpose.
-
-**Product development · Technical architecture · Automation · Open-source collaboration**
-
-### Start a conversation
-
-Share the problem, the current constraints, and the outcome that matters. That is a useful place to start a product or engineering discussion.
+Share the problem, the constraints, and the outcome that matters.
 
 [Website](https://www.talissonsouza.com.br) · [LinkedIn](https://www.linkedin.com/in/talinho) · [Email](mailto:contato@talissonsouza.com.br) · [WhatsApp](https://wa.me/5581993964261)
 

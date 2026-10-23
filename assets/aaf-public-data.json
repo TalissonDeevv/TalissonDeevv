@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-23",
+  "repository": "TalissonDeevv/application-audit-framework",
+  "commit": "472ec706aa386287cbce81cc81a6a648073fe18e",
+  "audit_domains": 7,
+  "repository_commits": 226,
+  "stars": 8,
+  "license": "MIT",
+  "files_per_auditor_directory": {
+    "discovery": 6,
+    "architecture": 6,
+    "security": 25,
+    "code-quality": 26,
+    "performance": 26,
+    "infrastructure": 28,
+    "report": 18
+  },
+  "last_repository_commit": "2026-07-26",
+  "scope": "Documentation files, including README, prompts, specifications, modules and placeholders. Counts are not implemented runtime capabilities or automated tests."
+}
