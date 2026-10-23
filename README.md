@@ -90,7 +90,17 @@ For AI-assisted engineering, generated output is a starting point for review. Cl
 
 <br>
 
-## 06 / Selected open source
+## 06 / GitHub in numbers
+
+![Public GitHub statistics: repositories, stars, forks and followers. Snapshot collected on October 23, 2026.](assets/github-stats.svg)
+
+![Language distribution by classified bytes across public, non-fork repositories.](assets/public-languages.svg)
+
+<sub>Snapshot: October 23, 2026 · GitHub public API · [Source data](assets/public-stats.json). Language percentages describe published source composition, not proficiency or the full range of tools I use. Private repositories are excluded. These are dated statistics, not live counters.</sub>
+
+<br>
+
+## 07 / Selected open source
 
 ### [AI Audit Framework](https://github.com/TalissonDeevv/application-audit-framework)
 
@@ -108,7 +118,7 @@ Specialized audit domains cover architecture, security, code quality, performanc
 
 <br>
 
-## 07 / Product & collaboration
+## 08 / Product & collaboration
 
 A useful solution starts with a real problem and continues through architecture, user experience, delivery, and operation. I bring engineering and entrepreneurial judgment to those decisions, with attention to cost, security, and long-term usefulness.
 

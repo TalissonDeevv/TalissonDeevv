@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-23",
+  "scope": "Public account metadata and language bytes from public, non-fork repositories. No private data or repository names.",
+  "public_repositories": 16,
+  "stars": 11,
+  "forks": 1,
+  "followers": 13,
+  "language_bytes": {
+    "TypeScript": 2939720,
+    "CSS": 8333,
+    "HTML": 7087,
+    "PLpgSQL": 4798,
+    "JavaScript": 1738
+  },
+  "source": "GitHub public REST API; collected during this profile update."
+}
