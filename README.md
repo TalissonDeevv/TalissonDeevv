@@ -1,64 +1,78 @@
-# Talisson Souza
+![Talisson Souza — Software Engineer. I design, build, and operate digital products.](assets/header.svg)
 
-**Software Engineer · Full Stack Developer · Entrepreneur**  
-Brazil
+<p align="center"><strong>Software Engineer · Full Stack Developer · Entrepreneur</strong><br><sub>Brazil · Engineering with product intent</sub></p>
 
-I design, build, and operate digital products, connecting software engineering, architecture, and business decisions.
+<p align="center"><a href="https://www.talissonsouza.com.br">Website</a> &nbsp; / &nbsp; <a href="https://www.linkedin.com/in/talinho">LinkedIn</a> &nbsp; / &nbsp; <a href="mailto:contato@talissonsouza.com.br">Email</a></p>
 
-My work spans full-stack applications, backend services, integrations, and automation. I care about what happens after delivery: how a system behaves, how it is maintained, and whether it continues to solve the right problem.
+<br>
 
-[Website](https://www.talissonsouza.com.br) · [LinkedIn](https://www.linkedin.com/in/talinho) · [Email](mailto:contato@talissonsouza.com.br)
+I build software around real problems: full-stack applications, backend services, integrations, and automation. Architecture, product decisions, and the realities of operating a system belong in the same conversation.
 
----
+## 01 / Languages & tools
 
-## Selected work
+**Languages**
+
+<img src="https://skillicons.dev/icons?i=java,python,js,ts&theme=dark" alt="Java, Python, JavaScript and TypeScript" height="44">
+
+Java · Python · JavaScript · TypeScript
+
+| Backend & integration | Interfaces & product | Data & delivery |
+| :--- | :--- | :--- |
+| <img src="https://skillicons.dev/icons?i=spring,python&theme=dark" alt="Spring and Python" height="38"> | <img src="https://skillicons.dev/icons?i=react,vite&theme=dark" alt="React and Vite" height="38"> | <img src="https://skillicons.dev/icons?i=postgres,supabase,docker&theme=dark" alt="PostgreSQL, Supabase and Docker" height="38"> |
+| Spring Boot · Python | React · Vite | PostgreSQL · SQL Server · Supabase |
+| REST APIs · integrations | JavaScript · TypeScript | Docker · Git · GitHub · cloud infrastructure |
+
+<sub>Tools I work with, organized by responsibility. Architecture follows the problem.</sub>
+
+<br>
+
+## 02 / From problem to operation
+
+An engineering approach guided by product context, clear boundaries, and maintainability.
+
+
+```mermaid
+flowchart LR
+    P["Problem & context"] --> A["Architecture"]
+    A --> B["Build & integrate"]
+    B --> O["Operate & observe"]
+    O --> E["Evaluate & evolve"]
+    E -. Feedback .-> P
+    classDef stage fill:#161b22,stroke:#6e7681,color:#f0f3f6,stroke-width:1px
+    class P,A,B,O,E stage
+```
+
+| Design with context | Build with clarity | Operate with responsibility |
+| :--- | :--- | :--- |
+| Understand constraints, cost, and expected impact. Choose architecture for the actual problem. | Keep responsibilities explicit, interfaces readable, and delivery scope focused. | Treat security, performance, and observability as design requirements. |
+
+<br>
+
+## 03 / Selected open source
 
 ### [AI Audit Framework](https://github.com/TalissonDeevv/application-audit-framework)
 
-An open-source methodology for structuring AI-assisted software audits across architecture, security, code quality, performance, and infrastructure.
+**Structured methodology for AI-assisted software audits.**
 
-The framework separates audit responsibilities into specialized domains and defines shared evidence requirements, severity and confidence models, and structured finding formats. Its current implementation consists of documentation, prompts, schemas, and specifications.
+Specialized audit domains cover architecture, security, code quality, performance, and infrastructure. Shared evidence requirements, severity and confidence models, and finding formats give the analysis a consistent structure.
 
-[Evidence requirements](https://github.com/TalissonDeevv/application-audit-framework/blob/main/core/evidence.md) · [Finding schema](https://github.com/TalissonDeevv/application-audit-framework/blob/main/schemas/finding-schema.md)
-
-### [Personal website](https://github.com/TalissonDeevv/talissonsouzacompany)
-
-A public codebase for my professional website, bringing together technical writing, engineering principles, and contact workflows.
-
-Built with React, TypeScript, and Vite, with bilingual routing, Supabase integration, and a backend function for contact email delivery. The repository also includes SQL migrations and database access policies.
-
-[Visit website](https://www.talissonsouza.com.br) · [Explore source](https://github.com/TalissonDeevv/talissonsouzacompany)
-
----
-
-## Engineering approach
-
-**Start with context.** Understand the problem, constraints, expected impact, and cost of ownership before choosing an architecture. Modularity and clear boundaries should serve the product.
-
-**Design for operation.** Treat security, observability, and performance as design requirements. Authentication, authorization, data handling, and secrets deserve deliberate decisions from the start.
-
-**Make the system understandable.** Prefer explicit responsibilities, readable code, and interfaces another engineer can reason about. Record decisions where their context matters.
-
-**Deliver with room to evolve.** Keep scope focused and feedback cycles short. Delivery speed matters alongside maintainability and the ability to change direction without introducing unnecessary fragility.
-
-## Technical practice
-
-| Domain | Technologies |
+| Foundation | Current scope |
 | :--- | :--- |
-| Backend & integration | Java, Spring Boot, Python, REST APIs |
-| Interfaces | JavaScript, TypeScript, React, Vite |
-| Data | PostgreSQL, SQL Server, Supabase |
-| Delivery & infrastructure | Git, GitHub, Docker, cloud infrastructure |
+| Evidence requirements · domain separation · structured reporting | Documentation · prompts · schemas · specifications |
 
-Architecture follows the problem. Tools are selected for their fit, operational cost, and maintenance needs.
+[Explore repository](https://github.com/TalissonDeevv/application-audit-framework) &nbsp; / &nbsp; [Evidence rules](https://github.com/TalissonDeevv/application-audit-framework/blob/main/core/evidence.md) &nbsp; / &nbsp; [Finding schema](https://github.com/TalissonDeevv/application-audit-framework/blob/main/schemas/finding-schema.md)
 
-## Product & collaboration
+<sub>The current repository provides the methodology and reference materials; an executable audit engine is outside its implemented scope.</sub>
+
+<br>
+
+## 04 / Product & collaboration
 
 A useful solution starts with a real problem and continues through architecture, user experience, delivery, and operation. I bring engineering and entrepreneurial judgment to those decisions, with attention to cost, security, and long-term usefulness.
 
-My public professional context also includes [Cheetah Solutions Network](https://github.com/CheetahSolutions), focused on software engineering and operational automation.
+My public professional context includes [Cheetah Solutions Network](https://github.com/CheetahSolutions), focused on software engineering and operational automation.
 
-For product development, engineering collaboration, and business conversations:
+**For product development, engineering collaboration, and business conversations.**
 
 [Website](https://www.talissonsouza.com.br) · [LinkedIn](https://www.linkedin.com/in/talinho) · [Email](mailto:contato@talissonsouza.com.br) · [WhatsApp](https://wa.me/5581993964261)
 
